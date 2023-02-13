@@ -10877,3 +10877,7 @@ h1.text {
     border-color: transparent;
   }
 }
+
+.link-project-api a {
+  text-decoration: none;
+}
