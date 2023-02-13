@@ -38,8 +38,8 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0"><span><</span>Web Dev<span>/></span></h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">My name is Logan M. M, I am a Web Developer. please procceed to the page below for more info on Projects and Contact.</h2>
+                        <h1 class="text"><span><</span>Web Dev<span>/></span></h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">My name is Logan M. M, I am a Web Developer. please procceed to the page below for more information on Projects and Contact info.</h2>
                         <a class="btn btn-primary" href="#about">About</a>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/" alt="..." />
+                <!-- <img class="img-fluid" id="Profile" src="assets" alt="...deer" /> -->
             </div>
         </section>
         <!-- Projects-->
@@ -89,7 +89,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -111,7 +111,8 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <ion-icon class="location" name="location"></ion-icon><br><br>
+                                <!-- <i class="fas fa-map-marked-alt text-primary mb-2"></i> -->
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">4923 Market Street, Orlando FL</div>
@@ -121,28 +122,30 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <ion-icon class="mail" name="mail-open"></ion-icon><br><br>
+                                <!-- <i class="fas fa-envelope text-primary mb-2"></i> -->
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">1912AlanTuring1954@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <ion-icon class="phone" name="call"></ion-icon><br><br>
+                                <!-- <i class="fas fa-mobile-alt text-primary mb-2"></i> -->
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 111-5555</div>
+                                <div class="small text-black-50">+1 (555) 555-2222</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-linkdin-l"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <div id="links" class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="mx-2" href="#!"><ion-icon name="logo-github"></ion-icon></a>
+                    <!-- <a class="mx-2" href="#!"></a> -->
                 </div>
             </div>
         </section>
@@ -156,6 +159,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="./scripts.js"></script>
+        <!--Ionicon link-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <!--misc-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
