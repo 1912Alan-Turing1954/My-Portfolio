@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <!-- <meta charset="utf-8" /> -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
@@ -38,7 +39,9 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="text"><span><</span>Web Dev<span>/></span></h1>
+                        <h1 class="text">
+                            <span class="auto-type"></span>
+                        </h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">My name is Logan M. M, I am a Web Developer. please procceed to the page below for more information on Projects and Contact info.</h2>
                         <a class="btn btn-primary" href="#about">About</a>
                     </div>
@@ -93,7 +96,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="./project-img/Screenshot_20230212_063331.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="./project-img/Screenshot_20230212_111438.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -201,5 +204,16 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <!--misc-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!--Typing-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: [ "<span><<span/>Web Dev<span>/><span/>", "<span><<span/>coder<span>/><span/>", "<span><<span/>programmer<span>/><span/>" ],
+                typeSpeed: 100,
+                backSpeed: 150,
+                loop: true
+            });
+
+        </script>
     </body>
 </html>

@@ -567,7 +567,7 @@ progress {
   padding-left: 0;
   list-style: none;
 }
-
+font-family
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -10852,32 +10852,7 @@ a.mx-2 ion-icon {
   color: #16899d;
 }
 
-h1.text {
-  animation: typing 3s steps(30), blinkCursor 0.8s steps(3) infinite;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 2px solid white;
-  width: 100%;
-}
-
-@keyframes typing {
-  0% { 
-    width: 0%; 
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes blinkCursor {
-  50% {
-    border-color: white;
-  }
-  75%, 100% {
-    border-color: transparent;
-  }
-}
-
 .link-project-api a {
   text-decoration: none;
 }
+
