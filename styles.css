@@ -604,7 +604,7 @@ font-family
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
 }
 
@@ -10866,30 +10866,16 @@ a.mx-2 ion-icon {
   transform: scale(1.5);
 }
 
-.var-highlight{
-  color: #C0AD60;
-}
-.string-highlight{
-  color: rgba(253, 149, 90, 0.8);
+.download {
+  padding: 0.8em;
+  
 }
 
-/* #typewriter:after{
-  content: "|";
-  animation: blink 500ms linear infinite alternate;
+.download button {
+  padding: 0.2em;
 }
 
-@-webkit-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+.download ion-icon {
+  transform: scale(1.1);
+  padding: 0.2em;
 }
-
-@-moz-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
-}
-
-@keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
-} */
-
