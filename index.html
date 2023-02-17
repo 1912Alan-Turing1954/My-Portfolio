@@ -29,7 +29,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +55,10 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">About</h2>
                         <p class="text-white-50">
-                            I am proficient in HTML | CSS | JavaScript | Git | Bash | Bootstrap | Linux | CMD | React | Vite.
+                            I am a web Developer & programmer based in California with well knowledge of Front-end techniques & styling of Front-end sites. 
+                            I admire & prefer order and structure over chaos when it comes to web Development, 
+                            and I also hope to aquire the work flow as a web Developer, 
+                            and it's something I hope to build on as I procceed through my journey.   
                         </p>
                     </div>
                 </div>
@@ -63,14 +66,21 @@
         </section>
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
+            
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div>
+                    <h3>Me.js</h3>
+                    <div class="code"></div>
+                </div>
+                <div id="info-tab" class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/pexels-eberhard-grossgasteiger-1367192.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Lorum Ipsum</h4>
-                            <p class="text-black-50 mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem natus modi obcaecati animi quibusdam eligendi sed libero nam, recusandae provident praesentium. Vel facilis facere laudantium nulla sint iusto alias odio., Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eligendi, temporibus eaque facilis non quia amet ut dicta asperiores animi aliquid pariatur, repudiandae sunt at, atque architecto veritatis excepturi ullam!</p>
+                            <h4>about</h4>
+                            <span class="text-black-50 mb-0">
+                                <h4 class=""></h4>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -154,7 +164,7 @@
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="signup-section bg-black" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -215,13 +225,25 @@
         <!--Typing-->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
+            var typed = new Typed(".code", {
+                strings: [`<pre id="typewriter">
+<span class="var-highlight">var</span> object = {
+    name: <span class="string-highlight">'Foo'</span>,
+    type: <span class="string-highlight">'Bar'</span>,
+    location: <span class="string-highlight">'Earth'</span>,
+    properties:[<span class="string-highlight">'Javascript'</span>, <span class="string-highlight">'HTML'</span>, <span class="string-highlight">'CSS'</span>];
+}; </pre>`],
+                typeSpeed: 80,
+            })
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>
             var typed = new Typed(".auto-type", {
-                strings: [ "<span><<span/>Web Dev<span>/><span/>", "<span><<span/>coder<span>/><span/>", "<span><<span/>programmer<span>/><span/>", "<span><<span/>hacker<span>/><span/>", "<span><<span/>error<span>/><span/>" ],
+                strings: [ "<span><<span/>Web Dev<span>/><span/>", "<span><<span/>coder<span>/><span/>", "<span><<span/>programmer<span>/><span/>", "<span><<span/>error<span>/><span/>" ],
                 typeSpeed: 100,
                 backSpeed: 125,
                 loop: true
             });
-
         </script>
     </body>
 </html>

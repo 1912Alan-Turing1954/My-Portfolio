@@ -265,7 +265,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  overflow: auto;
+  overflow: inherit;
   font-size: 0.875em;
 }
 pre code {
@@ -605,7 +605,7 @@ font-family
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -1399,7 +1399,7 @@ font-family
 
   .col-lg-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    width: 50%;
   }
 
   .col-lg-8 {
@@ -10802,28 +10802,28 @@ body {
   }
 }
 
-.contact-section {
+.signup-section {
   padding-top: 7rem;
 }
-.contact-section .card {
+.signup-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
-.contact-section .card h4, .contact-section .card .h4 {
+.signup-section .card h4, .signup-section .card .h4 {
   font-size: 0.8rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-.contact-section .card hr {
+.signup-section .card hr {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
-.contact-section .social {
+.signup-section .social {
   margin-top: 5rem;
 }
-.contact-section .social a {
+.signup-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -10832,10 +10832,10 @@ body {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-.contact-section .social a:hover {
+.signup-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.contact-section .social a:active {
+.signup-section .social a:active {
   color: #fff;
 }
 
@@ -10855,4 +10855,41 @@ a.mx-2 ion-icon {
 .link-project-api a {
   text-decoration: none;
 }
+
+#themeBtn {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+#themeBtn ion-icon {
+  transform: scale(1.5);
+}
+
+.var-highlight{
+  color: #C0AD60;
+}
+.string-highlight{
+  color: rgba(253, 149, 90, 0.8);
+}
+
+/* #typewriter:after{
+  content: "|";
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+} */
 
