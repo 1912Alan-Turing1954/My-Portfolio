@@ -10869,3 +10869,9 @@ a.mx-2 ion-icon {
 .download button {
   transform: scale(0.6);
 }
+
+.download a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
