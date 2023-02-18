@@ -10866,16 +10866,6 @@ a.mx-2 ion-icon {
   transform: scale(1.5);
 }
 
-.download {
-  padding: 0.8em;
-  
-}
-
 .download button {
-  padding: 0.2em;
-}
-
-.download ion-icon {
-  transform: scale(1.1);
-  padding: 0.2em;
+  transform: scale(0.6);
 }
