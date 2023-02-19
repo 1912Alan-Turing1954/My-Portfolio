@@ -10875,3 +10875,12 @@ a.mx-2 ion-icon {
   outline: none;
   color: #fff;
 }
+
+#code_png:hover {
+  transform: scale(1.02);
+  transition: all 0.5s ease;
+}
+
+#code_png::after {
+  transition: all 0.5s ease-in-out 0.5s;
+}
